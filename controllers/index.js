@@ -6,7 +6,7 @@ const getIndex = (req, res) => {
         res.render('index', {
             todos: todos
         });
-    })
+    });
 }
 
 const postIndex = (req, res) => {
