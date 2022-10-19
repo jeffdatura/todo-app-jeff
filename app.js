@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://jeff:password666@todoapp.oglzunl.mongodb.net/?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true}).then(() => {
+mongoose.connect('mongodb+srv://jeff:USA2022@cluster0.eeqeu.mongodb.net/?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true}).then(() => {
     console.log('Connecté à la base de données.');
 });
 
